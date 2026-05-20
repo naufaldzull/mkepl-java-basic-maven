@@ -1,5 +1,3 @@
-package src.main.java;
-
 public class Counter {
 
 	private int count;
@@ -13,11 +11,11 @@ public class Counter {
 	}
 	
 	public void increment() {
-		count++;
+		count--;
 	}
 	
 	public void decrement() {
-		count--;
+		count++;
 	}
 	
 	public int getCount() {
